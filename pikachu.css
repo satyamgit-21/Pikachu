@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f8f8;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+
+/* ===========================================
+   MAIN CONTAINER
+=========================================== */
+
+.container {
+    position: relative;
+    width: 65%;
+    height: 90vh;
+    margin: 20px auto;
+    background: #f9f8f8;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+
+/* ===========================================
+   LEFT SIDE
+=========================================== */
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 62%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        #f8c703,
+        #f8c703
+    );
+}
+
+
+/* ===========================================
+   RIGHT SIDE
+=========================================== */
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38%;
+    height: 100%;
+    background:
+        repeating-linear-gradient(
+            -45deg,
+            #fee08b,
+            #fee08b 18px,
+            #fee08b 18px,
+            #fee08b 36px
+        );
+}
+
+
+/* ===========================================
+   HEADER
+=========================================== */
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+/* ===========================================
+   LOGO
+=========================================== */
+
+.logo{
+    position:absolute;
+    top:50px;
+    left:150px;
+    width:200px; 
+}
+
+.logo img{
+    width: 500px;
+    display:block;
+    
+}
+
+
+/* ===========================================
+   MENU
+=========================================== */
+
+.menu {
+    position: absolute;
+    right: 55px;
+    top: 38px;
+    cursor: pointer;
+}
+
+.menu span {
+    display: block;
+    width: 36px;
+    height: 4px;
+    background: #111;
+    margin: 7px 0;
+    border-radius: 10px;
+}
+
+/*==========================================
+        CONTENT
+==========================================*/
+
+.content{
+
+    position:absolute;
+
+    top:500px;
+
+    left:100px;
+
+    width:470px;
+
+    z-index:30;
+
+}
+
+.content h4{
+
+    font-size:40px;
+
+    letter-spacing:10px;
+
+    color:#111;
+
+    margin-bottom:50px;
+
+}
+
+.content h1{
+
+    font-size: 250px;
+
+    left: 500px;
+
+    font-weight:700;
+
+    color:#111;
+
+    
+
+}
+
+.content p{
+   
+    width:1000px;
+
+    font-size:45px;
+
+    color:#333;
+
+}
+
+.page{
+    position:relative;
+    margin-top:10px;
+}
+
+.line{
+    position:absolute;
+    width:100px;
+    height:5px;
+    background:#111;
+    top: 100px;
+    left: 85px;
+}
+
+.page span{
+    position:absolute;
+    left:200px;
+    font-size:50px;
+    font-weight:700;
+    top: 65px;
+}
+
+/* ===========================================
+   PIKACHU IMAGE
+=========================================== */
+
+.pikachu{
+    position:absolute;
+    width:1250px;
+    left:1400px;
+    top:450px;
+    filter:drop-shadow(0 20px 30px rgba(0,0,0,.15));
+}
+
+
+/* ===========================================
+   IMAGE SHADOW
+=========================================== */
+
+.pikachu{
+
+    filter:drop-shadow(0 18px 25px rgba(0,0,0,.15));
+
+}
+
+/* ===========================================
+   POKEBALL
+=========================================== */
+
+.pokeball{
+    position:absolute;
+    width:700px;
+    left:40px;
+    top: 1500px;
+    opacity:.20;
+    border-radius: 50%;
+}
+
+/* ===========================================
+   RIGHT NAVIGATION
+=========================================== */
+
+.navigation{
+    position:absolute;
+    right:30px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.dot{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin:18px 0;
+    background:#f5c51c;
+}
+
+.active{
+    background:#111;
+}
